@@ -2,9 +2,9 @@
 
 namespace dbTable.Models
 {
-    public class Manufacturer : Controller
+    public class Manufacturer
     {
-            public int Id { get; set; }
+        public int Id { get; set; }
             public required string Location { get; set; }
             public required string Name { get; set; }
             public required List<ProductModel> Products { get; set; } = new List<ProductModel>();
